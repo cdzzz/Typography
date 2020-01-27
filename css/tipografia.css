@@ -1,0 +1,470 @@
+/* Pesos estruturais */
+
+body{
+	font-family: ;
+	color: ;
+}
+
+small{ 
+	font-size: 30%;
+	font-weight: normal;
+}
+
+.titulo-de-capitulo,
+.titulo-peso-2,
+.titulo-peso-3,
+.titulo-peso-4{
+	margin: .5em 0 1.2em;
+}
+
+.titulo-de-capitulo{ 
+	font-size: 1.8em;
+}
+
+.titulo-peso-2{
+	font-size: 1.6em;
+}
+
+.titulo-peso-3{
+	font-size: 1.4em;
+}
+
+.titulo-peso-4{
+	font-size: 1.2em;
+}
+
+p{
+	margin: 1em 0 2em;
+	font-size: 1em;
+	line-height: 1.3em;
+}
+
+.codigo,
+.passos li,
+.lista-simples li{
+	font-size: 1em;
+	line-height: 1.3em;
+}
+
+.codigo{
+	font-family: monospace;
+}
+
+@media (min-width: 768px){
+
+	.titulo-de-capitulo{ 
+		font-size: 3em;
+	}
+
+	.titulo-peso-2{
+		font-size: 2.5em;
+	}
+
+	.titulo-peso-3{
+		font-size: 2em;
+	}
+
+	.titulo-peso-4{
+		font-size: 1.3em;
+	}
+
+	p,
+	.codigo,
+	.passos li,
+	.lista-simples li{
+		font-size: 1.2em;
+		line-height: 1.4em;
+	}
+
+	.codigo{
+		font-size: 1.1em;
+		line-height: 1.4em;
+	}
+
+}
+
+
+
+/* Introdução */
+
+#introducao{ 
+	color: #FFF;
+	text-align: center;
+}
+
+.intro-titulo{ 
+	font-size: 2.5em;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: .2em;
+}
+
+.intro-subtitulo{ 
+	font: 300 italic 1.2em 'Droid Serif', 'Georgia', 'Times New Roman', Serif;
+	margin-bottom: 1em;
+}
+
+@media (min-width: 768px){
+
+	.intro-titulo{
+		font-size: 3em;
+	}
+
+	.intro-subtitulo{
+		font-size: 1.5em;
+	}
+
+}
+
+@media (min-width: 992px){
+
+	.intro-titulo{
+		font-size: 4em;
+	}
+
+	.intro-subtitulo{
+		font-size: 2.5em;
+	}
+
+}
+
+
+
+/* Aula 1 - Conhecendo os diferentes tipos de fonte */
+
+.aula-1-serifa{ 
+	font-family: ;
+}
+
+.aula-1-sem-serifa{ 
+	font-family: ;
+}
+
+.aula-1-espacamento-fixo{ 
+	font-family: ;
+}
+
+.aula-1-cursiva{ 
+	font-family: ;
+}
+
+.aula-1-fantasia{ 
+	font-family: ;
+}
+
+
+
+/* Aula 2 - Extensões, uso legal e instalação de fontes */
+
+@font-face{
+
+}
+
+.titulo-de-capitulo,
+.titulo-peso-2,
+.titulo-peso-3,
+.titulo-peso-4,
+.menu-itens li{
+	font-family: ;
+	font-weight: ;
+}
+
+p,
+li{
+	font-weight: ;
+}
+
+
+
+/* Aula 3 - Composições: alinhamento e combinações de fontes */
+
+.aula-3-titulo-serifa{
+	font-family: ;
+	font-weight: ;
+	font-size: ;
+}
+
+.aula-3-titulo-sem-serifa{
+	font-family: ;
+	font-weight: ;
+	font-size: ;
+}
+
+.aula-3-paragrafo-slab{
+	font-family: ;
+	font-weight: ;
+}
+
+.destaque{
+	text-align: ;
+	font-family: ;
+}
+
+.destaque p{
+	font-variant: ;
+	font-weight: ;
+	font-size: ;
+}
+
+@media (min-width: 768px){
+
+	.destaque p{
+		font-size: ;
+	}
+
+}
+
+
+
+/* Aula 4 - Estilos aplicáveis com CSS3 */
+
+a{
+	color: ;
+	text-decoration: ;
+}
+
+a:hover{
+	color: ;
+	text-decoration: ;
+}
+
+.inverso a,
+.destaque a{
+	color: ;
+}
+
+.inverso a:hover,
+.destaque a:hover{
+	color: ;
+}
+
+.codigo{
+	color: ;
+}
+
+.titulo-de-capitulo{
+	padding: ;
+	margin-left: ;
+	color: ;
+	border-bottom: ;
+	border-left: ;
+}
+
+.capitular:first-letter{
+	background-color: ;
+	float: ;
+	color: ;
+	font-size: ;
+	line-height: ;
+	padding: ;
+	border-radius: ;
+	margin-right: ;
+}
+
+@media (min-width: 768px){
+
+	.capitular:first-letter{
+		font-size: ;
+	}
+
+}
+
+.capitular-inverso:first-letter{
+	background-color: ;
+	float: ;
+	color: ;
+	font-size: ;
+	line-height: ;
+	padding: ;
+	border-radius: ;
+	margin-right: ;
+}
+
+@media (min-width: 768px){
+
+	.capitular-inverso:first-letter{
+		font-size: ;
+	}
+
+}
+
+.citacao{
+	border: ;
+	border-left: ;
+	margin: ;
+	padding: ;
+	width: ;
+	border-radius: ;
+	quotes: ;
+}
+
+.citacao p{
+	display: ;
+	margin: ;
+	font: ;
+	line-height: ;
+}
+
+@media (min-width: 768px){
+
+	.citacao{
+		width: ;
+		margin: ;
+	}
+
+}
+
+.citacao p:before{
+	content: ;
+	color: ;
+	font-size: ;
+	margin-right: ;
+	vertical-align: ;
+	line-height: ;
+}
+
+.citacao p:after{
+	content: ;
+	color: ;
+	font-size: ;
+	line-height: ;
+	margin-left: ;
+	vertical-align: ;
+}
+
+.citacao .autor{
+	color: ;
+	text-align: ;
+	display: ;
+	padding: ;
+	font: ;
+}
+
+.menu-itens li,
+.btn-menu{
+	letter-spacing: ;
+}
+
+
+
+/* Aula 5 - Questões importantes: erros comuns e as fontes nos meios digitais */
+
+.aula-5-lista-de-produtos li:hover{
+	text-decoration: ;
+}
+
+.aula-5-produto a{
+	text-decoration: ;
+}
+
+.aula-5-desconto{
+	color: ;
+	font-size: ;
+	font-weight: ;
+	line-height: ;
+	text-align: ;
+}
+
+.aula-5-infos-produto{
+	vertical-align: ;
+}
+
+.aula-5-nome-do-produto{
+	font-size: ;
+	line-height: ;
+}
+
+.aula-5-preco-velho{
+	color: ;
+	font-size: ;
+}
+
+.aula-5-preco-real{
+	font-size: ;
+	font-weight: ;
+}
+
+.aula-5-parcelas{
+	font-style: ;
+	font-weight: ;
+	color: ;
+	font-size: ;
+}
+
+.aula-5-frete-gratis{
+	font-size: ;
+	font-weight: ;
+	text-transform: ;
+	letter-spacing: ;
+	color: ;
+}
+
+@media (min-width: 768px){
+
+	.aula-5-desconto{
+		font-size: ;
+		line-height: ;
+	}
+
+	.aula-5-nome-do-produto{
+		font-size: ;
+		line-height: ;
+	}
+
+	.aula-5-preco-velho{
+		font-size: ;
+	}
+
+	.aula-5-preco-real{
+		font-size: ;
+	}
+
+	.aula-5-parcelas{
+		font-size: ;
+	}
+
+	.aula-5-frete-gratis{
+		font-size: ;
+	}
+}
+
+.justificado-errado{
+	text-align: ;
+	color: ;
+}
+
+.justificado-certo{
+	text-align: ;
+	color: ;
+	-webkit-hyphens: ;
+	-moz-hyphens: ;
+	-ms-hyphens: ;
+	hyphens: ;
+}
+
+/* Rodapé */
+
+footer a{
+	color: #0CC;
+}
+
+footer a:hover{
+	color: #0EE;
+}
+
+.bibliografia,
+.creditos{
+	list-style-type: none;
+	padding: 0;
+}
+
+.bibliografia li{
+	list-style-type: none;
+	font-style: italic;
+	margin-bottom: .5em;
+}
+
+.creditos li{
+	list-style-type: none;
+	margin-bottom: .5em;
+}
